@@ -4,8 +4,16 @@ public class HargaBayar {
         
         Scanner input = new Scanner(System.in);
         int harga,jumlah;
-        double dis = 0.1;
+        double dis;
         double total, bayar, jmlDis;
+        String Merk;
+        int jmlhal;
+        System.out.println("Masukkan merk buku");
+        Merk = input.nextLine();
+        System.out.println("Masukkan jumlah halaman");
+        jmlhal = input.nextInt();
+        System.out.println("Masukkan diskon");
+        dis = input.nextInt();
         System.out.println("Masukkan harga barang yang dibeli ");
         harga = input.nextInt();
         System.out.println("Masukkan Jumlah Barang Yang Dibeli ");
