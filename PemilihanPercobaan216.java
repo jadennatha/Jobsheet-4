@@ -17,19 +17,19 @@ public class PemilihanPercobaan216 {
         String message = total < 65 ? "Remidi" : "Tidak remidi";
 
         if (total>80){
-            System.out.println("Nilai akhir = " + total + " sehingga " + message + "setara dengan nilai huruf A");
+            System.out.println("Nilai akhir = " + total + " sehingga " + message + " setara dengan nilai huruf A");
         } else if (total>73){
-            System.out.println("Nilai akhir = " + total + " sehingga " + message + "setara dengan nilai huruf B+");
+            System.out.println("Nilai akhir = " + total + " sehingga " + message + " setara dengan nilai huruf B+");
         } else if (total>65){
-            System.out.println("Nilai akhir = " + total + " sehingga " + message + "setara dengan nilai huruf B");
+            System.out.println("Nilai akhir = " + total + " sehingga " + message + " setara dengan nilai huruf B");
         } else if (total>60){
-            System.out.println("Nilai akhir = " + total + " sehingga " + message + "setara dengan nilai huruf C+");
+            System.out.println("Nilai akhir = " + total + " sehingga " + message + " setara dengan nilai huruf C+");
         } else if (total>50){
-            System.out.println("Nilai akhir = " + total + " sehingga " + message + "setara dengan nilai huruf C");
+            System.out.println("Nilai akhir = " + total + " sehingga " + message + " setara dengan nilai huruf C");
         } else if (total>39){
-            System.out.println("Nilai akhir = " + total + " sehingga " + message + "setara dengan nilai huruf D");
+            System.out.println("Nilai akhir = " + total + " sehingga " + message + " setara dengan nilai huruf D");
         } else if (total<=39){
-            System.out.println("Nilai akhir = " + total + " sehingga " + message + "setara dengan nilai huruf E");
+            System.out.println("Nilai akhir = " + total + " sehingga " + message + " setara dengan nilai huruf E");
         }
         
         }
