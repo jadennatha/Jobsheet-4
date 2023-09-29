@@ -16,7 +16,7 @@ public class PemilihanPercobaan216 {
         float total = (uas * 0.4F) + (uts * 0.3F) + (kuis * 0.1F) + (tugas * 0.2F);
         String message = total < 65 ? "Remidi" : "Tidak remidi";
 
-        if (total>80){
+        if (total>80 && total<=100){
             System.out.println("Nilai akhir = " + total + " sehingga " + message + " setara dengan nilai huruf A");
         } else if (total>73){
             System.out.println("Nilai akhir = " + total + " sehingga " + message + " setara dengan nilai huruf B+");
