@@ -15,12 +15,12 @@ public class Pemilhan2Percobaan216 {
         totalsudut = sudut1 + sudut2 + sudut3;
 
         if (totalsudut == 180){
-            if (sudut1 == 90){
+            if (sudut1 == 90 || sudut2 == 90 || sudut3 == 90){
                 System.out.println("Segitiga tersebut adalah segitiga siku-siku");
             }else if (sudut1==sudut2 && sudut1==sudut3 && sudut2==sudut3 && sudut3==sudut1){
                 System.out.println("segitiga tersebut adalah sama sisi");
             }else if (sudut1==sudut2 || sudut1==sudut3 || sudut2==sudut3 || sudut3==sudut1){
-                System.out.println("Segitiga tersebu adalah sama kaki");
+                System.out.println("Segitiga tersebut adalah sama kaki");
             }else {
                 System.out.println("segitiga sembarang");
             }
