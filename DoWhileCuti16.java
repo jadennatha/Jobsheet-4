@@ -16,7 +16,7 @@ public class DoWhileCuti16 {
                 System.out.print("jumlah hari: ");
                 jumlahHari = sc.nextInt();
                 while (jatahCuti < jumlahHari){
-                    System.out.println("Jumlah hari yang anda masukkan lebih besar dari sisa jatah cuti yang anda miliki");
+                    System.out.println("Mohon maaf jumlah hari melebihi batas");
                     System.out.print("Coba lagi: ");
                     jumlahHari = sc.nextInt(jumlahHari);
                 }
