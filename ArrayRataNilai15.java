@@ -17,15 +17,15 @@ public class ArrayRataNilai15 {
         nilaimhs[i] = input.nextInt();
        }
         for (int i = 0; i<nilaimhs.length; i++){
-            System.out.println("Nilai Mahasiswa ke-" + i + " : " + nilaimhs[i]);
+            System.out.println("Nilai Mahasiswa ke-" + (i+1) + " : " + nilaimhs[i]);
         }
          for (int i = 0; i<nilaimhs.length; i++){
         if (nilaimhs[i] > 70){
-            System.out.println("Mahasiswa ke-" + i + " lulus!" );
+            System.out.println("Mahasiswa ke-" + (i+1) + " lulus!" );
             jumlahlulus++;
             totalnllulus += nilaimhs[i];
         } else {
-            System.out.println("Mahasiswa ke-" + i + " tidak lulus!" );
+            System.out.println("Mahasiswa ke-" + (i+1) + " tidak lulus!" );
             jumlahtdklulus++;
             totalnltdklulus += nilaimhs[i];
         }

@@ -9,19 +9,23 @@ public class LinearSearch15{
         int jmlelemen = input.nextInt();
         int[] arrayInt = new int[jmlelemen];
         for (int i = 0; i < arrayInt.length ; i++){
-            System.out.print("Masukkan element array ke-" + (i+1) + " :");
+            System.out.print("Masukkan element array ke-" + (i) + " :");
             arrayInt[i] = input.nextInt();
         }
         System.out.print("Masukkan key yang ingin dicari :");
         key = input.nextInt();
+        hasil = 0;
         for (int i = 0; i < arrayInt.length; i++){
             if (arrayInt[i] == key){
-                hasil = i; 
-                System.out.println("Key ada dalam array pada posisi indeks ke-" + hasil);         
-            }else {
-                System.out.println("key tidak ditemukan");
+                hasil = i;   
                 break;
+                }
             }
-        }
+            if (hasil != 0){
+                System.out.println("Key ditemukan pada indeks ke-" + hasil);
+            }else {
+                System.out.println("Key tidak ditemukan");
+            }
+                       
     }
 }
