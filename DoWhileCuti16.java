@@ -10,7 +10,7 @@ public class DoWhileCuti16 {
         jatahCuti = sc.nextInt();
 
         do {
-             System.out.print("Apakah Anda ingin mengambil cuti (y/t)? ");
+            System.out.print("Apakah Anda ingin mengambil cuti (y/t)? ");
             konfirmasi = sc.next();
             if (konfirmasi.equalsIgnoreCase("y")){
                 System.out.print("jumlah hari: ");
